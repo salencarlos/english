@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar {
+  padding: 5px;
+  overflow: hidden;
+  background-color: #8f96f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  background-color: rgb(68, 0, 255);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.text-container {
+  background: white;
+  margin: 0 200px;
+}
+
+.text-container h1 {
+  font-size: 50px;
+  margin: 50px 0 10px 5px;
+}
+
+.text-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: justify;
+}
+
+.uclass {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(1, 53, 1);
+}
+
+.fcolor {
+  color: blue;
+}
+
+.tenses-img {
+  border-radius: 10px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.heading1 {
+  font-size: 50px;
+  margin: 50px 0;
+  color: rgb(27, 23, 23);
+}
+
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+
+.bn37 {
+  border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.bn37:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+}
+
+.bn37 {
+  border-color: transparent;
+  background-color: rgb(110, 63, 241);
+  color: #fff;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  margin: 20px 290px;
+}
+
+.bn37:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.verb-video {
+  margin: 50px auto;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  background: #8ff5cb;
+  overflow: hidden;
+
+}
+
+.welcome-text {
+
+  width: 50%;
+  padding: 100px;
+}
+
+.welcome-text h1 {
+  font-size: 4rem;
+}
+
+.welcome-text p {
+  font-size: xx-large;
+}
+
+.welcome-img {
+  width: 50%;
+  padding: 20px 35px;
+  filter: drop-shadow(9px 13px 16px rgba(49, 46, 46, 0.521));
+}
+
+.img-school {
+  height: 30rem;
+  width: 38rem;
+}
+
+.intro-img {
+  margin: 40px 0;
+  width: 50%;
+  padding: 50px 45px;
+  filter: drop-shadow(9px 13px 16px rgba(49, 46, 46, 0.521));
+}
+
+.teacher-img {
+  height: 28rem;
+  width: 26rem;
+}
+
+.intro-text {
+  margin: 50px;
+  padding: 50px;
+}
+
+.intro-text h2 {
+  font-size: 3.5rem;
+}
+
+.intro-text p {
+  font-size: larger;
+}
+
+.Mission-text {
+  width: 50%;
+  padding: 20px;
+}
+
+.Mission-text h2 {
+  font-size: 3.5rem;
+  padding: 50px;
+}
+
+.Mission-text p {
+  font-size: larger;
+  padding: 0 50px;
+}
+
+.Mission-img {
+  padding: 50px;
+  filter: drop-shadow(9px 13px 16px rgba(49, 46, 46, 0.521));
+}
